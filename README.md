@@ -46,8 +46,12 @@ sill.csv
 |#37        | (Affective) I try to relax whenever I feel afraid of coding |
 |#38        | (Affective) I encourage myself to code even when I am afraid of making a mistake |
 |#39        | (Affective) I give myself a reward or treat when I do well in programming assignment |
-|#39        | (Affective) I notice if I am tense or nervous when I am coding a programming |
-|#40        | (Affective) I write down my feelings in a language learning diary |
-|#41        | (Affective) I talk to someone else about how I feel when I am learning programming |
-
-|#36        | (Social)
+|#40        | (Affective) I notice if I am tense or nervous when I am coding a programming |
+|#41        | (Affective) I write down my feelings in a language learning diary |
+|#42        | (Affective) I talk to someone else about how I feel when I am learning programming |
+|#43        | (Social) If I do not understand something in programming, I ask question in opensource communities |
+|#44        | (Social) I ask contributers in opensource communities to review my code |
+|#45        | (Social) I join opensource communities |
+|#46        | (Social) I ask for help from opensource communities |
+|#47        | (Social) I ask questions |
+|#48        | (Social) I try to kearn about the style of coding |
