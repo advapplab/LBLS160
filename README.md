@@ -98,7 +98,7 @@ score.csv
 | Feature   | Description |
 |---------  |-------------|
 | userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
-| score     | Students' final score. |
+| score     | Students' final score, less than 60 indicated failed on this course. |
 
 bt.csv
 
