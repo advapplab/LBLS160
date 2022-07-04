@@ -78,8 +78,7 @@ viscode.csv
 | KeyError          | Raised when a mapping (dictionary) key is not found in the set of existing keys. |
 | KeyboardInterrupt | Raised when the user hits the interrupt key (normally Control-C or Delete). |
 | LookupError       | The base class for the exceptions that are raised when a key or index used on a mapping or sequence is invalid: IndexError, KeyError. |
-| ModuleNotFoundError   | 
-A subclass of ImportError which is raised by import when a module could not be located. |
+| ModuleNotFoundError   | A subclass of ImportError which is raised by import when a module could not be located. |
 | NameError         | Raised when a local or global name is not found. |
 | OperationalError  | Exception raised for errors that are related to the database’s operation, and not necessarily under the control of the programmer. |
 | SyntaxError       | Raised when the parser encounters a syntax error. |
