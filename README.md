@@ -90,8 +90,11 @@ viscode.csv
 | ZeroDivisionError | Raised when the second argument of a division or modulo operation is zero. |
 
 https://docs.python.org/3/library/exceptions.html
+
 https://docs.python.org/3/library/json.html
+
 https://github.com/matplotlib/matplotlib/blob/cd9d371cd473b286310845ada9e5a3e786630e1a/lib/matplotlib/units.py#L52
+
 https://docs.python.org/3/library/sqlite3.html#sqlite3.OperationalError
 
 score.csv
@@ -105,27 +108,57 @@ bt.csv
 | Feature   | Description |
 |---------  |-------------|
 | userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
-| ADD BOOKMARK          | added a bookmark to current page. |
-| ADD MARKER            | added a marker to current page. |
-| ADD MEMO              | added a memo to current page. |
-| ADD_HW_MEMO           | |
-| BOOKMARK_JUMP         | |
-| CHANGE MEMO           | |
-| CLEAR_HW_MEMO         | |
-| CLOSE                 | closed the book. |
-| CLOSE_RECOMMENDATION  | |
-| DELETE BOOKMARK       | deleted a bookmark on current page. |
-| DELETE MARKER         | deleted a marker on current page. |
-| DELETE_MEMO           | deleted a memo on current page. |
-| GETIT                 | |
-| MEMO_JUMP             | |
-| NEXT                  | went to the next page. |
-| NOTGETIT              | |
-| OPEN                  | opened the book. |
+| ADD BOOKMARK          | Added a bookmark to current page. |
+| ADD MARKER            | Added a marker to current page. |
+| ADD MEMO              | Added a memo to current page. |
+| ADD_HW_MEMO           | Added a handwrite memo to current page. |
+| BOOKMARK_JUMP         | Jump to a specific page with a bookmark. |
+| CHANGE MEMO           | Modify the content of an existing memo on current page. |
+| CLEAR_HW_MEMO         | Clear the content of an existing handwrite memo on current page. |
+| CLOSE                 | Closed the book. |
+| CLOSE_RECOMMENDATION  | Deleted an exist bookmark in the e-book.|
+| DELETE BOOKMARK       | Deleted a bookmark on current page. |
+| DELETE MARKER         | Deleted a marker on current page. |
+| DELETE_MEMO           | Deleted a memo on current page. |
+| GETIT                 | Press the smiley face icon to indicate the understanding on current page. |
+| MEMO_JUMP             | Select a note to jump to the specific page. |
+| NEXT                  | Went to the next page. |
+| NOTGETIT              | Press the crying face icon to indicate the misunderstanding on current page.|
+| OPEN                  | Opened the book. |
 | OPEN_RECOMMENDATION   | |
-| PAGE_JUMP             | jumped to a particular page. |
-| PREV                  | went to the previous page. |
+| PAGE_JUMP             | Jumped to a particular page. |
+| PREV                  | Went to the previous page. |
 | REGIST CONTENTS       | |
-| SEARCH                | searched for something within the e-book. |
-| SEARCH_JUMP           | jumped to a page from the search results. |
-| UNDO_HW_MEMO          | |
+| SEARCH                | Searched for something within the e-book. |
+| SEARCH_JUMP           | Jumped to a page from the search results. |
+| UNDO_HW_MEMO          | Undo the last action of handwriting. |
+
+engagement_pre.csv, engagement_post.csv
+| Feature   | Description |
+|---------  |-------------|
+| userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
+| 1     | (Behavioral) I listen carefully to everything that is said in class. |
+| 2     | (Behavioral) I ask questions about what I do not know. |
+| 3	    | (Behavioral) I interact with my peers during class. |
+| 4	    | (Behavioral) I strive to understand lessons during class. |
+| 5	    | (Behavioral) I am alert during class. |
+| 6	    | (Behavioral) I always participate in discussions with my teacher. |
+| 7	    | (Behavioral) I am always eager to attend class. |
+| 8	    | (Behavioral) I always complete my assignments. |
+| 9	    | (Behavioral) I prefer to complete activities and assignments during class with my instructor and peers. |
+| 10	| (Behavioral) Enough time is provided during class for practice activities and discussions. |
+| 11	| (Cognitive) I always ask the instructor about difficult content. |
+| 12	| (Cognitive) I attempt to apply things that I learned during class. |
+| 13	| (Cognitive) I relate to my peers and discuss with them what I learned at home.
+| 14	| (Cognitive) I strive to acquire new knowledge about the course. |
+| 15	| (Cognitive) Being familiar with the content prior to attending class motivates me and increases my engagement. |
+| 16	| (Cognitive) Preparing for lessons enables me to communicate better with my peers and the instructor. |
+| 17	| (Cognitive) Familiarizing myself with content prior to attending a lecture enables me to share what I learned with others during class. |
+| 18	| (Emotional) I enjoy the class. |
+| 19	| (Emotional) The teaching method practiced by the instructor is enjoyable. |
+| 20	| (Emotional) I enjoy the practice activities conducted during class. |
+| 21	| (Emotional) I enjoy studying content at home. |
+| 22	| (Emotional) I like it when the instructor asks me questions. |
+| 23	| (Emotional) I am optimistic when I go to class with an understanding of the content. |
+| 24	| (Emotional) Participating in class discussions boosts my confidence. |
+| 25	| (Emotional) Solving and sharing problems during class is enjoyable. |
