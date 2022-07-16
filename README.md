@@ -2,7 +2,7 @@
 
 ### Data Formats
 
-sill.csv
+output/sill.csv
 
 | Feature   | Description |
 |---------  |-------------|
@@ -57,7 +57,8 @@ sill.csv
 |s_48        | (Social) I try to kearn about the style of coding. |
 
 
-viscode.csv
+output/viscode.csv
+
 | Feature   | Description |
 |---------  |-------------|
 | userid            | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
@@ -97,14 +98,15 @@ https://github.com/matplotlib/matplotlib/blob/cd9d371cd473b286310845ada9e5a3e786
 
 https://docs.python.org/3/library/sqlite3.html#sqlite3.OperationalError
 
-score.csv
+output/score.csv
+
 | Feature   | Description |
 |---------  |-------------|
 | userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
 | score     | Students' final score, less than 60 indicated failed on this course. |
 | class     | Students' class identity. |
 
-bt.csv
+output/bt.csv
 
 | Feature   | Description |
 |---------  |-------------|
@@ -134,7 +136,9 @@ bt.csv
 | SEARCH_JUMP           | Jumped to a page from the search results. |
 | UNDO_HW_MEMO          | Undo the last action of handwriting. |
 
-engagement_pre.csv, engagement_post.csv
+output/engagement_pre.csv
+output/engagement_post.csv
+
 | Feature   | Description |
 |---------  |-------------|
 | userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
