@@ -12,49 +12,49 @@ sill.csv
 |#3         | (Memory) I connect the diagram or logic of a new programming skill to help remember them. |
 |#4         | (Memory) I remember a new Syntax or Lexical by making a diagram which the function might be used. |
 |#5         | (Memory) I use textbooks or dictionary to remember Syntax or Lexical which I just learned. |
-|#6         | (Memory) I physically implement a function by Syntax or Lexical which I just learned. |
-|#7         | (Memory) I review code often. |
-|#8         | (Memory) I remember new Syntax or Lexical by remembering their location on the page. |
-|#9         | (Cogntive) I practice coding often. |
-|#10        | (Cogntive) I try to code like an open-source contributor. |
-|#11        | (Cogntive) I pratice to design code structure. |
-|#12        | (Cogntive) I implement a founction in different code structure. |
-|#13        | (Cogntive) I refer example code in open-source community. |
-|#14        | (Cogntive) I code for pleasure. |
-|#15        | (Cogntive) I code for solving the problems encountered in life. |
-|#16        | (Cogntive) I first skim code structure (function name, variable name, calls) then go back to simulate execution carefully. |
-|#17        | (Cogntive) I run units to understand a complex code or new Syntax or Lexical. |
-|#18        | (Cogntive) I try to find patterns in code. |
-|#19        | (Cogntive) I find the meaning of a code by dividing it into units. |
-|#20        | (Cogntive) I try not to avoid to read comments in code. |
-|#21        | (Cogntive) I make summaries, notes when I interpret code. |
-|#22        | (Compensation) To understand unfamiliar Syntax or Lexical, I make guesses. |
-|#23        | (Compensation) I use other functions or methods when I forget the direct one. |
-|#24        | (Compensation) I make up new functions if I do not know the right ones. |
-|#25        | (Compensation) I can read a code without using textbooks or dictionary. |
-|#26        | (Compensation) I try to guess what the meaning of unfamiliar Syntax or Lexical. |
-|#27        | (Compensation) If I can' t think of a Method or Class, I implement one instead. |
-|#28        | (Metacognitive) I try to guess what the other person will design in assignment. |
-|#29        | (Metacognitive) I notice my weakness of programming skills and use that information to help me do better. |
-|#30        | (Metacognitive) I pay attention when someone is explaining a concept on programming. |
-|#31        | (Metacognitive) I try to fine out how to be a better programmer. |
-|#32        | (Metacognitive) I plan my schedule so I will have enough time to study programming. |
-|#33        | (Metacognitive) I look for people I can talk to in programming. |
-|#34        | (Metacognitive) I look for opportunities to read as much as possible in codes. |
-|#35        | (Metacognitive) I have clear goals for improving my programming skills. |
-|#36        | (Metacognitive) I think about my progress in learning programming. |
-|#37        | (Affective) I try to relax whenever I feel afraid of coding. |
-|#38        | (Affective) I encourage myself to code even when I am afraid of making a mistake. |
-|#39        | (Affective) I give myself a reward or treat when I do well in programming assignment. |
-|#40        | (Affective) I notice if I am tense or nervous when I am coding a programming. |
-|#41        | (Affective) I write down my feelings in a language learning diary. |
-|#42        | (Affective) I talk to someone else about how I feel when I am learning programming. |
-|#43        | (Social) If I do not understand something in programming, I ask question in opensource communities. |
-|#44        | (Social) I ask contributers in opensource communities to review my code. |
-|#45        | (Social) I join opensource communities. |
-|#46        | (Social) I ask for help from opensource communities. |
-|#47        | (Social) I ask questions. |
-|#48        | (Social) I try to kearn about the style of coding. |
+|s_6         | (Memory) I physically implement a function by Syntax or Lexical which I just learned. |
+|s_7         | (Memory) I review code often. |
+|s_8         | (Memory) I remember new Syntax or Lexical by remembering their location on the page. |
+|s_9         | (Cogntive) I practice coding often. |
+|s_10        | (Cogntive) I try to code like an open-source contributor. |
+|s_11        | (Cogntive) I pratice to design code structure. |
+|s_12        | (Cogntive) I implement a founction in different code structure. |
+|s_13        | (Cogntive) I refer example code in open-source community. |
+|s_14        | (Cogntive) I code for pleasure. |
+|s_15        | (Cogntive) I code for solving the problems encountered in life. |
+|s_16        | (Cogntive) I first skim code structure (function name, variable name, calls) then go back to simulate execution carefully. |
+|s_17        | (Cogntive) I run units to understand a complex code or new Syntax or Lexical. |
+|s_18        | (Cogntive) I try to find patterns in code. |
+|s_19        | (Cogntive) I find the meaning of a code by dividing it into units. |
+|s_20        | (Cogntive) I try not to avoid to read comments in code. |
+|s_21        | (Cogntive) I make summaries, notes when I interpret code. |
+|s_22        | (Compensation) To understand unfamiliar Syntax or Lexical, I make guesses. |
+|s_23        | (Compensation) I use other functions or methods when I forget the direct one. |
+|s_24        | (Compensation) I make up new functions if I do not know the right ones. |
+|s_25        | (Compensation) I can read a code without using textbooks or dictionary. |
+|s_26        | (Compensation) I try to guess what the meaning of unfamiliar Syntax or Lexical. |
+|s_27        | (Compensation) If I can' t think of a Method or Class, I implement one instead. |
+|s_28        | (Metacognitive) I try to guess what the other person will design in assignment. |
+|s_29        | (Metacognitive) I notice my weakness of programming skills and use that information to help me do better. |
+|s_30        | (Metacognitive) I pay attention when someone is explaining a concept on programming. |
+|s_31        | (Metacognitive) I try to fine out how to be a better programmer. |
+|s_32        | (Metacognitive) I plan my schedule so I will have enough time to study programming. |
+|s_33        | (Metacognitive) I look for people I can talk to in programming. |
+|s_34        | (Metacognitive) I look for opportunities to read as much as possible in codes. |
+|s_35        | (Metacognitive) I have clear goals for improving my programming skills. |
+|s_36        | (Metacognitive) I think about my progress in learning programming. |
+|s_37        | (Affective) I try to relax whenever I feel afraid of coding. |
+|s_38        | (Affective) I encourage myself to code even when I am afraid of making a mistake. |
+|s_39        | (Affective) I give myself a reward or treat when I do well in programming assignment. |
+|s_40        | (Affective) I notice if I am tense or nervous when I am coding a programming. |
+|s_41        | (Affective) I write down my feelings in a language learning diary. |
+|s_42        | (Affective) I talk to someone else about how I feel when I am learning programming. |
+|s_43        | (Social) If I do not understand something in programming, I ask question in opensource communities. |
+|s_44        | (Social) I ask contributers in opensource communities to review my code. |
+|s_45        | (Social) I join opensource communities. |
+|s_46        | (Social) I ask for help from opensource communities. |
+|s_47        | (Social) I ask questions. |
+|s_48        | (Social) I try to kearn about the style of coding. |
 
 
 viscode.csv
@@ -102,6 +102,7 @@ score.csv
 |---------  |-------------|
 | userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
 | score     | Students' final score, less than 60 indicated failed on this course. |
+| class     | Students' class identity. |
 
 bt.csv
 
@@ -137,28 +138,28 @@ engagement_pre.csv, engagement_post.csv
 | Feature   | Description |
 |---------  |-------------|
 | userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
-| 1     | (Behavioral) I listen carefully to everything that is said in class. |
-| 2     | (Behavioral) I ask questions about what I do not know. |
-| 3	    | (Behavioral) I interact with my peers during class. |
-| 4	    | (Behavioral) I strive to understand lessons during class. |
-| 5	    | (Behavioral) I am alert during class. |
-| 6	    | (Behavioral) I always participate in discussions with my teacher. |
-| 7	    | (Behavioral) I am always eager to attend class. |
-| 8	    | (Behavioral) I always complete my assignments. |
-| 9	    | (Behavioral) I prefer to complete activities and assignments during class with my instructor and peers. |
-| 10	| (Behavioral) Enough time is provided during class for practice activities and discussions. |
-| 11	| (Cognitive) I always ask the instructor about difficult content. |
-| 12	| (Cognitive) I attempt to apply things that I learned during class. |
-| 13	| (Cognitive) I relate to my peers and discuss with them what I learned at home.
-| 14	| (Cognitive) I strive to acquire new knowledge about the course. |
-| 15	| (Cognitive) Being familiar with the content prior to attending class motivates me and increases my engagement. |
-| 16	| (Cognitive) Preparing for lessons enables me to communicate better with my peers and the instructor. |
-| 17	| (Cognitive) Familiarizing myself with content prior to attending a lecture enables me to share what I learned with others during class. |
-| 18	| (Emotional) I enjoy the class. |
-| 19	| (Emotional) The teaching method practiced by the instructor is enjoyable. |
-| 20	| (Emotional) I enjoy the practice activities conducted during class. |
-| 21	| (Emotional) I enjoy studying content at home. |
-| 22	| (Emotional) I like it when the instructor asks me questions. |
-| 23	| (Emotional) I am optimistic when I go to class with an understanding of the content. |
-| 24	| (Emotional) Participating in class discussions boosts my confidence. |
-| 25	| (Emotional) Solving and sharing problems during class is enjoyable. |
+| e_1     | (Behavioral) I listen carefully to everything that is said in class. |
+| e_2     | (Behavioral) I ask questions about what I do not know. |
+| e_3	    | (Behavioral) I interact with my peers during class. |
+| e_4	    | (Behavioral) I strive to understand lessons during class. |
+| e_5	    | (Behavioral) I am alert during class. |
+| e_6	    | (Behavioral) I always participate in discussions with my teacher. |
+| e_7	    | (Behavioral) I am always eager to attend class. |
+| e_8	    | (Behavioral) I always complete my assignments. |
+| e_9	    | (Behavioral) I prefer to complete activities and assignments during class with my instructor and peers. |
+| e_10	| (Behavioral) Enough time is provided during class for practice activities and discussions. |
+| e_11	| (Cognitive) I always ask the instructor about difficult content. |
+| e_12	| (Cognitive) I attempt to apply things that I learned during class. |
+| e_13	| (Cognitive) I relate to my peers and discuss with them what I learned at home.
+| e_14	| (Cognitive) I strive to acquire new knowledge about the course. |
+| e_15	| (Cognitive) Being familiar with the content prior to attending class motivates me and increases my engagement. |
+| e_16	| (Cognitive) Preparing for lessons enables me to communicate better with my peers and the instructor. |
+| e_17	| (Cognitive) Familiarizing myself with content prior to attending a lecture enables me to share what I learned with others during class. |
+| e_18	| (Emotional) I enjoy the class. |
+| e_19	| (Emotional) The teaching method practiced by the instructor is enjoyable. |
+| e_20	| (Emotional) I enjoy the practice activities conducted during class. |
+| e_21	| (Emotional) I enjoy studying content at home. |
+| e_22	| (Emotional) I like it when the instructor asks me questions. |
+| e_23	| (Emotional) I am optimistic when I go to class with an understanding of the content. |
+| e_24	| (Emotional) Participating in class discussions boosts my confidence. |
+| e_25	| (Emotional) Solving and sharing problems during class is enjoyable. |
