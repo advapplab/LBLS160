@@ -1,5 +1,7 @@
 # Data Challenge
 
+Emerging science requires data collection to support the research and development of advanced methodologies. In the educational field, conceptual frameworks such as Learning Analytics (LA) or Intelligent Tutoring System (ITS) also require data. Prior studies demonstrated the efficiency of academic data, for example, risk student prediction and learning strategies unveiling. However, a publicly available data set was lacking for benchmarking these experiments. To contribute to educational science and technology research and development, we conducted a programming course series two years ago and collected 160 students' learning data. The data set includes two well-designed learning systems and measurements of two well-defined learning strategies: Self-regulated Learning (SRL) and Strategy Inventory for Language Learning (SILL). Then we summarized this data set as a Learning Behavior and Learning Strategies data set (LBLS-160) in this study; here, 160 indicates a total of 160 students. Compared to the prior studies, the LBLS data set is focused on students' book reading behaviors, code programming behaviors, and measurement results on students' learning strategies. Additionally, to demonstrate the usability and availability of the LBLS data set, we conducted a simple risk student prediction task, which is in line with the challenge of cross-course testing accuracy. Furthermore, to facilitate the development of educational science, this study summarized three data challenges for the LBLS data set.
+
 ### Data Formats
 
 output/sill.csv
