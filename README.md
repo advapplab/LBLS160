@@ -2,11 +2,60 @@
 
 Emerging science requires data collection to support the research and development of advanced methodologies. In the educational field, conceptual frameworks such as Learning Analytics (LA) or Intelligent Tutoring System (ITS) also require data. Prior studies demonstrated the efficiency of academic data, for example, risk student prediction and learning strategies unveiling. However, a publicly available data set was lacking for benchmarking these experiments. To contribute to educational science and technology research and development, we conducted a programming course series two years ago and collected 160 students' learning data. The data set includes two well-designed learning systems and measurements of two well-defined learning strategies: Self-regulated Learning (SRL) and Strategy Inventory for Language Learning (SILL). Then we summarized this data set as a Learning Behavior and Learning Strategies data set (LBLS-160) in this study; here, 160 indicates a total of 160 students. Compared to the prior studies, the LBLS data set is focused on students' book reading behaviors, code programming behaviors, and measurement results on students' learning strategies. Additionally, to demonstrate the usability and availability of the LBLS data set, we conducted a simple risk student prediction task, which is in line with the challenge of cross-course testing accuracy. Furthermore, to facilitate the development of educational science, this study summarized three data challenges for the LBLS data set.
 
-### Git Demo
+## Folder Structure
 
-### Data Formats
+```
+    .
+    ├── ...
+    ├── data                    
+    │   ├── br.csv              # Students' BookRoll activities (learning behavior)
+    │   ├── score.csv           # Students' final score
+    │   ├── sill.csv            # Students' Strategy Inventory for Language Learning (SILL) measurement results
+    │   ├── srl_motivation.csv  # Students' Self-regulated Learning (SRL) measurement results
+    │   ├── viscode.csv         # Students' VisCode activities (learning behavior)
+```
 
-output/sill.csv
+## Data Formats
+
+### Students' BookRoll activities (learning behavior)
+
+| Feature   | Description |
+|---------  |-------------|
+| userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
+| ADD BOOKMARK          | Added a bookmark to current page. |
+| ADD MARKER            | Added a marker to current page. |
+| ADD MEMO              | Added a memo to current page. |
+| ADD_HW_MEMO           | Added a handwrite memo to current page. |
+| BOOKMARK_JUMP         | Jump to a specific page with a bookmark. |
+| CHANGE MEMO           | Modify the content of an existing memo on current page. |
+| CLEAR_HW_MEMO         | Clear the content of an existing handwrite memo on current page. |
+| CLOSE                 | Closed the book. |
+| CLOSE_RECOMMENDATION  | Deleted an exist bookmark in the e-book.|
+| DELETE BOOKMARK       | Deleted a bookmark on current page. |
+| DELETE MARKER         | Deleted a marker on current page. |
+| DELETE_MEMO           | Deleted a memo on current page. |
+| GETIT                 | Press the smiley face icon to indicate the understanding on current page. |
+| MEMO_JUMP             | Select a note to jump to the specific page. |
+| NEXT                  | Went to the next page. |
+| NOTGETIT              | Press the crying face icon to indicate the misunderstanding on current page.|
+| OPEN                  | Opened the book. |
+| OPEN_RECOMMENDATION   | |
+| PAGE_JUMP             | Jumped to a particular page. |
+| PREV                  | Went to the previous page. |
+| REGIST CONTENTS       | |
+| SEARCH                | Searched for something within the e-book. |
+| SEARCH_JUMP           | Jumped to a page from the search results. |
+| UNDO_HW_MEMO          | Undo the last action of handwriting. |
+
+### Students' final score
+
+| Feature   | Description |
+|---------  |-------------|
+| userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
+| score     | Students' final score, less than 60 indicated failed on this course. |
+| class     | Students' class identity. |
+
+### Students' Strategy Inventory for Language Learning (SILL) measurement results
 
 | Feature   | Description |
 |---------  |-------------|
@@ -60,8 +109,9 @@ output/sill.csv
 |s_47        | (Social) I ask questions. |
 |s_48        | (Social) I try to kearn about the style of coding. |
 
+###  Students' Self-regulated Learning (SRL) measurement results
 
-output/viscode.csv
+### Students' VisCode activities (learning behavior)
 
 | Feature   | Description |
 |---------  |-------------|
@@ -101,73 +151,3 @@ https://docs.python.org/3/library/json.html
 https://github.com/matplotlib/matplotlib/blob/cd9d371cd473b286310845ada9e5a3e786630e1a/lib/matplotlib/units.py#L52
 
 https://docs.python.org/3/library/sqlite3.html#sqlite3.OperationalError
-
-output/score.csv
-
-| Feature   | Description |
-|---------  |-------------|
-| userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
-| score     | Students' final score, less than 60 indicated failed on this course. |
-| class     | Students' class identity. |
-
-output/bt.csv
-
-| Feature   | Description |
-|---------  |-------------|
-| userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
-| ADD BOOKMARK          | Added a bookmark to current page. |
-| ADD MARKER            | Added a marker to current page. |
-| ADD MEMO              | Added a memo to current page. |
-| ADD_HW_MEMO           | Added a handwrite memo to current page. |
-| BOOKMARK_JUMP         | Jump to a specific page with a bookmark. |
-| CHANGE MEMO           | Modify the content of an existing memo on current page. |
-| CLEAR_HW_MEMO         | Clear the content of an existing handwrite memo on current page. |
-| CLOSE                 | Closed the book. |
-| CLOSE_RECOMMENDATION  | Deleted an exist bookmark in the e-book.|
-| DELETE BOOKMARK       | Deleted a bookmark on current page. |
-| DELETE MARKER         | Deleted a marker on current page. |
-| DELETE_MEMO           | Deleted a memo on current page. |
-| GETIT                 | Press the smiley face icon to indicate the understanding on current page. |
-| MEMO_JUMP             | Select a note to jump to the specific page. |
-| NEXT                  | Went to the next page. |
-| NOTGETIT              | Press the crying face icon to indicate the misunderstanding on current page.|
-| OPEN                  | Opened the book. |
-| OPEN_RECOMMENDATION   | |
-| PAGE_JUMP             | Jumped to a particular page. |
-| PREV                  | Went to the previous page. |
-| REGIST CONTENTS       | |
-| SEARCH                | Searched for something within the e-book. |
-| SEARCH_JUMP           | Jumped to a page from the search results. |
-| UNDO_HW_MEMO          | Undo the last action of handwriting. |
-
-output/engagement_pre.csv
-output/engagement_post.csv
-
-| Feature   | Description |
-|---------  |-------------|
-| userid    | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320   |
-| e_1     | (Behavioral) I listen carefully to everything that is said in class. |
-| e_2     | (Behavioral) I ask questions about what I do not know. |
-| e_3	    | (Behavioral) I interact with my peers during class. |
-| e_4	    | (Behavioral) I strive to understand lessons during class. |
-| e_5	    | (Behavioral) I am alert during class. |
-| e_6	    | (Behavioral) I always participate in discussions with my teacher. |
-| e_7	    | (Behavioral) I am always eager to attend class. |
-| e_8	    | (Behavioral) I always complete my assignments. |
-| e_9	    | (Behavioral) I prefer to complete activities and assignments during class with my instructor and peers. |
-| e_10	| (Behavioral) Enough time is provided during class for practice activities and discussions. |
-| e_11	| (Cognitive) I always ask the instructor about difficult content. |
-| e_12	| (Cognitive) I attempt to apply things that I learned during class. |
-| e_13	| (Cognitive) I relate to my peers and discuss with them what I learned at home.
-| e_14	| (Cognitive) I strive to acquire new knowledge about the course. |
-| e_15	| (Cognitive) Being familiar with the content prior to attending class motivates me and increases my engagement. |
-| e_16	| (Cognitive) Preparing for lessons enables me to communicate better with my peers and the instructor. |
-| e_17	| (Cognitive) Familiarizing myself with content prior to attending a lecture enables me to share what I learned with others during class. |
-| e_18	| (Emotional) I enjoy the class. |
-| e_19	| (Emotional) The teaching method practiced by the instructor is enjoyable. |
-| e_20	| (Emotional) I enjoy the practice activities conducted during class. |
-| e_21	| (Emotional) I enjoy studying content at home. |
-| e_22	| (Emotional) I like it when the instructor asks me questions. |
-| e_23	| (Emotional) I am optimistic when I go to class with an understanding of the content. |
-| e_24	| (Emotional) Participating in class discussions boosts my confidence. |
-| e_25	| (Emotional) Solving and sharing problems during class is enjoyable. |
