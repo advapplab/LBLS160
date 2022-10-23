@@ -11,11 +11,11 @@ output/sill.csv
 | Feature   | Description |
 |---------  |-------------|
 |userid     | Anonymized student userid, eg: b1dfc5c6ec04d46d1823c5fa972ad320. |
-|#1         | (Memory) I think of relationships between what I already know and new things I learn in programming language. |
-|#2         | (Memory) I use Syntax or Lexical which just learned in my code, so I can remember them. |
-|#3         | (Memory) I connect the diagram or logic of a new programming skill to help remember them. |
-|#4         | (Memory) I remember a new Syntax or Lexical by making a diagram which the function might be used. |
-|#5         | (Memory) I use textbooks or dictionary to remember Syntax or Lexical which I just learned. |
+|s_1         | (Memory) I think of relationships between what I already know and new things I learn in programming language. |
+|s_2         | (Memory) I use Syntax or Lexical which just learned in my code, so I can remember them. |
+|s_3         | (Memory) I connect the diagram or logic of a new programming skill to help remember them. |
+|s_4         | (Memory) I remember a new Syntax or Lexical by making a diagram which the function might be used. |
+|s_5         | (Memory) I use textbooks or dictionary to remember Syntax or Lexical which I just learned. |
 |s_6         | (Memory) I physically implement a function by Syntax or Lexical which I just learned. |
 |s_7         | (Memory) I review code often. |
 |s_8         | (Memory) I remember new Syntax or Lexical by remembering their location on the page. |
